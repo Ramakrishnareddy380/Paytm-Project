@@ -3,7 +3,7 @@ Copy code
 pipeline {
 agent any
 tools {
-nodejs &#39;NodeJS&#39; // Name of your NodeJS installation in Jenkins
+nodejs 'NodeJS' // Name of your NodeJS installation in Jenkins
 }
 stages {
 stage(&#39;Checkout&#39;) {
